@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class UserController {
     @GetMapping("toUser")
     public String toUser(){
+        System.out.println();
         return "hello";
     }
 }
